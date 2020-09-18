@@ -1,0 +1,19 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "homepage": "https://BullHamund.github.io/modern_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Bill Hammond",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
+    "node-sass": "^4.14.1"
+  }
+}
